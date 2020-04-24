@@ -1,0 +1,148 @@
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 33.427362,
+        "lng": 33.427362
+    },
+    "accuracy": 30,
+    "name": "kohna",
+    "phone_number": "993344422444",
+    "address": "29, side layout, cohen 09",
+    "types": [
+        "bakery",
+        "shoe"
+    ],
+    "website": "www.facebook.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Fri, 24 Apr 2020 12:25:26 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f00e62a86b172f8677e65d1d51e227c2",
+    "scope": "APP",
+    "reference": "09db558588d3cfb6e13f61b1e6c84fd909db558588d3cfb6e13f61b1e6c84fd9",
+    "id": "09db558588d3cfb6e13f61b1e6c84fd9"
+}
+Request method:	PUT
+Request URI:	http://216.10.245.166/maps/api/place/update/json?key=qaclick123&place_id=f00e62a86b172f8677e65d1d51e227c2
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f00e62a86b172f8677e65d1d51e227c2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "f00e62a86b172f8677e65d1d51e227c2",
+    "address": "East blue 20th avenue fairhaven street 1",
+    "key": "qaclick123"
+}
+HTTP/1.1 200 OK
+Date: Fri, 24 Apr 2020 12:25:27 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "msg": "Address successfully updated"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=f00e62a86b172f8677e65d1d51e227c2
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f00e62a86b172f8677e65d1d51e227c2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 24 Apr 2020 12:25:27 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "33.427362",
+        "longitude": "33.427362"
+    },
+    "accuracy": "30",
+    "name": "kohna",
+    "phone_number": "993344422444",
+    "address": "East blue 20th avenue fairhaven street 1",
+    "types": "bakery,shoe",
+    "website": "www.facebook.com",
+    "language": "English"
+}
+Request method:	DELETE
+Request URI:	http://216.10.245.166/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "f00e62a86b172f8677e65d1d51e227c2"
+}
+HTTP/1.1 200 OK
+Date: Fri, 24 Apr 2020 12:25:28 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
