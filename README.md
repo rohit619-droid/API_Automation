@@ -1,2 +1,2 @@
-# API_Automation
-Rest_API_BDD_Framework
+# Rest_Assured_BDD_Framework
+
